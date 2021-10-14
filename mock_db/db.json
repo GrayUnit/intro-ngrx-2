@@ -1,0 +1,19 @@
+{
+  "matieres": [
+    {
+      "id": 1,
+      "libelle": "Informatique",
+      "coefficient": 10
+    },
+    {
+      "id": 2,
+      "libelle": "Anglais",
+      "coefficient": 7
+    },
+    {
+      "libelle": "test",
+      "coefficient": 3,
+      "id": 3
+    }
+  ]
+}

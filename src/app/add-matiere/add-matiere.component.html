@@ -1,0 +1,13 @@
+<div>
+    <form [formGroup]="matiereForm">
+        <div>
+            <label>Libellé</label>
+            <input name="libelle" id="libelle" formControlName="libelle" type="text"/>
+        </div>
+        <div>
+            <label>Coefficient</label>
+            <input name="coef" id="coef" formControlName="coefficient" type="number"/>
+        </div>
+    </form>
+    <button (click)="createMatiere(matiereForm.value)">Enregistrer</button>
+</div>
